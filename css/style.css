@@ -1,0 +1,37 @@
+body {
+  background-color: #34495e;
+  color: #f1f2f6;
+  font-family: "Stylish", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-title {
+  font-family: "Baloo Bhai", cursive;
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+.btn {
+  background-color: #c23616;
+  padding: 30px 60px;
+  margin: 20px;
+  font-size: 30px;
+  color: #f1f2f6;
+  cursor: pointer;
+  border: 3px solid #f1f2f6;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #e84118;
+}
+
+.answer {
+  margin: 20px 0;
+}
