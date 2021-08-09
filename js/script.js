@@ -1,4 +1,4 @@
-var buttonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
+var buttonName, buttonPaper, buttonRock, buttonScissors;
 
 function buttonClicked(buttonName) {
   clearMessages();
