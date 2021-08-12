@@ -1,4 +1,3 @@
-var buttonName;
 const buttonRock = document.getElementById('button-rock');
 buttonRock.addEventListener('click', function(){ buttonClicked('kamień'); });
 const buttonPaper = document.getElementById('button-paper');
@@ -10,7 +9,6 @@ function buttonClicked(buttonName) {
   clearMessages();
   console.log(buttonName + ' został kliknięty');
 
-  var argComputerMove, argMoveId, argPlayerMove;
 
 function getMoveName(argMoveId) {
   console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
